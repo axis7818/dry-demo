@@ -1,0 +1,16 @@
+syntax = "proto3";
+package dry;
+option java_package = "com.cameroncode.dry";
+option java_outer_classname = "CoordData";
+
+message Coord {
+   float lng = 1;
+   float lat = 2;
+}
+
+message CoordRect {
+   float east = 1;
+   float west = 2;
+   float north = 3;
+   float south = 4;
+}
